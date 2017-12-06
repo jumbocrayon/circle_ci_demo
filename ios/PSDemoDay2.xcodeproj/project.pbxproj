@@ -34,7 +34,6 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		AD9FBE4C1FD721EF00CADA08 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9FBE4B1FD721EF00CADA08 /* FBSDKCoreKit.framework */; };
 		AD9FBE8B1FD729C300CADA08 /* MGRSegmentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9FBE8A1FD729C300CADA08 /* MGRSegmentModule.m */; };
 		AD9FBE901FD757AD00CADA08 /* MGRSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9FBE8F1FD757AD00CADA08 /* MGRSnapshotTest.m */; };
 		AD9FBED91FD75B0300CADA08 /* libRCTTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9FBED51FD759D400CADA08 /* libRCTTest.a */; };
@@ -344,7 +343,6 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		976A0FFACD559C157B4719F3 /* Pods-PSDemoDay2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSDemoDay2.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSDemoDay2/Pods-PSDemoDay2.release.xcconfig"; sourceTree = "<group>"; };
-		AD9FBE4B1FD721EF00CADA08 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		AD9FBE891FD729C300CADA08 /* MGRSegmentModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MGRSegmentModule.h; path = PSDemoDay2/MGRSegmentModule.h; sourceTree = "<group>"; };
 		AD9FBE8A1FD729C300CADA08 /* MGRSegmentModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MGRSegmentModule.m; path = PSDemoDay2/MGRSegmentModule.m; sourceTree = "<group>"; };
 		AD9FBE8F1FD757AD00CADA08 /* MGRSnapshotTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGRSnapshotTest.m; sourceTree = "<group>"; };
@@ -377,7 +375,6 @@
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				AD9FBE4C1FD721EF00CADA08 /* FBSDKCoreKit.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
@@ -628,7 +625,6 @@
 		CBD96304432B1390E448E073 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD9FBE4B1FD721EF00CADA08 /* FBSDKCoreKit.framework */,
 				4DBF7587F418B117C5294C26 /* libPods-PSDemoDay2.a */,
 			);
 			name = Frameworks;
@@ -733,9 +729,6 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = LUP9V75BEB;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1302,7 +1295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = LUP9V75BEB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK/**";
 				INFOPLIST_FILE = PSDemoDay2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1322,7 +1315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LUP9V75BEB;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK/**";
 				INFOPLIST_FILE = PSDemoDay2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
